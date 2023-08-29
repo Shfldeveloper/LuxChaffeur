@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Lato";
+    src: url(./../fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Lora-Bold" ;
+    src: url(./../fonts/lora/Lora-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lora-BoldItalic";
+    src: url(./../fonts/lora/Lora-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: "Lora-Italic";
+    src: url(./../fonts/lora/Lora-Italic.ttf)
+}
+
+@font-face{
+    font-family: "Lora-Regular";
+    src : url(./../fonts/lora/Lora-Regular.ttf)
+}
+
+@font-face {
+    font-family: "NottoSanse-Regular";
+    src: url(./../fonts/NattoSans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "NunitoSans-Regular";
+    src: url(./../fonts/NunitoSans/NunitoSans_Regular.ttf);
+}
