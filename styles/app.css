@@ -1,3 +1,141 @@
+@import "reset.css";
+@import "grid.css";
+@import "fonts.css";
+@import "variables.css";
+
 * , *::after , *::before{
     box-sizing:border-box;
 }
+
+/* costom reset styles */
+
+a{
+    text-decoration: none;
+    color: var(--text-Primery-color);
+}
+
+/* costom reset styles */
+
+html{
+    font-size: 62.5%;   /* 10 px*/
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: var(--nunito-sanse);
+    line-height: 1.5;
+}
+
+/* Start Navbar section */
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.header__logo-link{
+    width: 18.5rem;
+    height: 3.4rem;
+}
+
+.header__logo-img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.header__navbar{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header__navbar-item{
+    font-family: var(--noto-sanse);
+    font-weight: 400;
+}
+
+.header__navbar-link{
+    font-size: 1.rem;
+}
+
+.header__navbar-link:hover{
+    
+    color: var(--primery-color);
+   
+}
+
+.header__navbar-link--active{
+    
+    color: var(--primery-color);
+    font-weight: 700;
+}
+
+
+
+
+/* End Navbar section */
+
+/* start home section */
+
+.home{
+    position: relative;
+}
+
+.home::after{
+    content: url(./../images/Vector.svg);
+    z-index: -1;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.home__container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__title{
+    font-size: 4.4rem;
+    font-family: var(--Lora-font);
+    font-weight: 700;
+    margin-left: 3.2rem;
+    position: relative;
+    
+}
+.home__title::before{
+    content: "";
+    height: 23rem;
+    width: 0.7rem;
+    border-radius: 5rem;
+    left: -3.2rem;
+    /* color: var(--primery-color); */
+    background-color: var(--skiny-color);
+    position: absolute;
+
+}
+
+
+.home__pic-con{
+    width: 70rem;
+    height: 42.4rem;
+    position: relative;
+}
+
+.home__pic{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 13rem;
+    right: 8rem;
+}
+
+
+
+/* finish home section */
